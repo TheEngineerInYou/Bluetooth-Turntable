@@ -56,8 +56,7 @@ String message = "";
 char incomingChar;
 
 // Timer: auxiliar variables
-unsigned long previousMillis = 0;    // Stores last time temperature was published
-const long interval = 100000;         // interval at which to publish info to user
+unsigned long previousMillis = 0;    // Stores last time stepper command was sent
 long stepperStepInterval = 2;         // interval between each step
 
 void setup() {
