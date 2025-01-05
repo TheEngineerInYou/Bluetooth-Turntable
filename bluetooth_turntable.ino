@@ -26,9 +26,7 @@ bool flagIncreaseSpeed = false;
 bool flagDecreaseSpeed = false;
 
 
-// ports used to control the stepper motor
-// if your motor rotate to the opposite direction, 
-// change the order as {4, 5, 6, 7};
+// ports used to control the stepper motor, modify according to your settup...
 int port[4] = {2, 4, 5, 18};//{4, 5, 6, 7};
 
 // half step sequence of stepper motor control
